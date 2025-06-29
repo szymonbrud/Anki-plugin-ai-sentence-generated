@@ -1,0 +1,1 @@
+# Anki-plugin-ai-sentence-generated
