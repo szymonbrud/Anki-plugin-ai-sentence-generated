@@ -54,7 +54,7 @@ You must provide your own API key for the add-on to work.
     # SETTINGS
 
     # Choose the model you want to use. Note: Gemma has the largest capacity but should provide sufficient results.
-    AI_MODEL = "gemma-2b-it" # Changed to gemma-2b-it as it's a common free tier model
+    AI_MODEL = "gemma-3n-e2b-it"
 
     # You can get a free API key from Google AI Studio
     GEMINI_API_KEY="PASTE_YOUR_API_KEY_HERE"
@@ -112,7 +112,7 @@ All settings are located at the top of the `.py` file.
 
 | Variable            | Default Value      | Description                                                                                             |
 | ------------------- | ------------------ | ------------------------------------------------------------------------------------------------------- |
-| `AI_MODEL`          | `gemma-2b-it`      | The Gemini model to use. `gemma-2b-it` is a good choice for the free tier.                                |
+| `AI_MODEL`          | `gemma-3n-e2b-it`      | The Gemini model to use. `gemma-3n-e2b-it` is a good choice for the free tier.                                |
 | `GEMINI_API_KEY`    | `""`               | **Required.** Your personal API key from Google AI Studio.                                                |
 | `SOURCE_FIELD`      | `"card_back"`      | The name of the Anki note field that contains the source word. **Must match your Note Type.**            |
 | `TARGET_TO_REPLACE` | `"<ai_sentence>"`  | The placeholder text in your card template that will be replaced with the generated sentence.             |
